@@ -1,32 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-import StaticCard from './components/StaticCard'
-import OrderInterface from './components/OrderInterface'
 import Footer from './components/Footer'
-import Schedules from './components/Schedules'
+import Home from './components/Home'
+import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom';
+
 
 function App() {
 
   return (
-    <>
-    <Navbar>
-
-    </Navbar>
-    <StaticCard>
-
-    </StaticCard>
-    <OrderInterface>
-      
-    </OrderInterface>
-    <Schedules>
-
-    </Schedules>
-    <Footer>
-
-    </Footer>
-    </>
+    <Router>
+<Navbar>
+</Navbar>
+    
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+      </Routes>
+      <Footer>
+      </Footer>
+    
+ 
+    
+    </Router>
   )
 }
 
