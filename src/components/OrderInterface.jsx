@@ -40,17 +40,21 @@ function OrderInterface() {
             </div>
             <div className='m-3 w-1/4'>
             <label className="font-bold" htmlFor="">Tanggal Berangkat</label>
-            <input type="datetime-local"  name="date" className='w-full border-4 bg-gray-100 rounded h-9'/>
+            <input type="datetime-local"  name="date-berangkat" className='w-full border-4 bg-gray-100 rounded h-9'/>
+            </div>
+            <div className='m-3 w-1/4'>
+            <label className="font-bold" htmlFor="">Tanggal Pulang</label>
+            <input type="datetime-local"  name="date-balik" className='w-full border-4 bg-gray-100 rounded h-9'/>
             </div>
             <div className='m-3 w-1/4 flex'>
             <label className="font-bold w-full p-2" htmlFor="">Pulang pergi</label>
             <input type="checkbox"  name="pp" className='w-full border-4 bg-gray-100 rounded h-9'/>
             </div>
-            <div className='m-3 w-32'>
+            <div className='m-3 w-1/4'>
             <label className="font-bold" htmlFor="">Dewasa</label>
             <input type="number"  name="dewasa" className='w-full border-4 bg-gray-100 rounded h-9'/>
             </div>
-            <div className='m-3 w-32'>
+            <div className='m-3 w-1/4'>
             <label className="font-bold" htmlFor="">bayi</label>
             <input type="number"  name="bayi" className='w-full border-4 bg-gray-100 rounded h-9'/>
             </div>
