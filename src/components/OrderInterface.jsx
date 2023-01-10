@@ -30,25 +30,17 @@ function OrderInterface() {
             </h1>
             <form>
             <div className='flex flex-wrap'>
-            <div className='m-3 w-4/3'>
+            <div className='m-3 w-3/4'>
             <label className="font-bold" htmlFor="">Dari</label>
             <input type="text"  name="from" className='w-full border-4 bg-gray-100 rounded h-9'/>
             </div>
-            <div className='m-3 w-1/2'>
+            <div className='m-3 w-3/4'>
             <label className="font-bold" htmlFor="">Ke</label>
             <input type="text"  name="to" className='w-full border-4 bg-gray-100 rounded h-9'/>
             </div>
             <div className='m-3 w-1/4'>
             <label className="font-bold" htmlFor="">Tanggal Berangkat</label>
             <input type="datetime-local"  name="date-berangkat" className='w-full border-4 bg-gray-100 rounded h-9'/>
-            </div>
-            <div className='m-3 w-1/4'>
-            <label className="font-bold" htmlFor="">Tanggal Pulang</label>
-            <input type="datetime-local"  name="date-balik" className='w-full border-4 bg-gray-100 rounded h-9'/>
-            </div>
-            <div className='m-3 w-1/4 flex'>
-            <label className="font-bold w-full p-2" htmlFor="">Pulang pergi</label>
-            <input type="checkbox"  name="pp" className='w-full border-4 bg-gray-100 rounded h-9'/>
             </div>
             <div className='m-3 w-1/4'>
             <label className="font-bold" htmlFor="">Dewasa</label>
