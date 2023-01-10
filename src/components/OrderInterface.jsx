@@ -7,7 +7,7 @@ function OrderInterface() {
 
     var [tikName , setTikName] = useState("Kereta Api")
   return (
-    <div className='w-4/3 h-1/2 bg-gray-100 rounded ronded-4 mx-16 -my-3 py-2 shadow-lg flex'>
+    <div className='w-4/3 h-1/2 bg-gray-100 rounded ronded-4 mx-16 -mt-6 mb-7 py-2 shadow-lg flex'>
         <div>
             <div onClick={() => {setTikName("Kereta Api")}}>
                 <h1 

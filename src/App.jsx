@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import StaticCard from './components/StaticCard'
 import OrderInterface from './components/OrderInterface'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,9 @@ function App() {
     <OrderInterface>
       
     </OrderInterface>
+    <Footer>
+      
+    </Footer>
     </>
   )
 }
