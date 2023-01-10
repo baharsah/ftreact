@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <nav className="px-2 sm:px-4 py-2.5">
-    <div class="container flex flex-wrap items-center justify-between mx-auto">
+    <div class="container  drop-shadow-lg flex flex-wrap items-center justify-between mx-auto">
         {/* TODO: Change Logo  */}
       <a href="#" class="flex items-center hover:bg-pink-400">
           <span class="self-center text-4xl font-bold whitespace-nowrap text-pink-400 hover:text-pink-100 p-3">Landtik</span>

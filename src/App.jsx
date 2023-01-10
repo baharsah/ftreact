@@ -5,9 +5,9 @@ import Navbar from './components/Navbar'
 import StaticCard from './components/StaticCard'
 import OrderInterface from './components/OrderInterface'
 import Footer from './components/Footer'
+import Schedules from './components/Schedules'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -20,8 +20,11 @@ function App() {
     <OrderInterface>
       
     </OrderInterface>
+    <Schedules>
+
+    </Schedules>
     <Footer>
-      
+
     </Footer>
     </>
   )
