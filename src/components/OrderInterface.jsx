@@ -11,14 +11,14 @@ function OrderInterface() {
         <div>
             <div onClick={() => {setTikName("Kereta Api")}}>
                 <h1 
-                className='my-2 bg-white py-3 px-1 font-bold text-pink-600 border-l-4 hover:border-l-8 active:bg-pink-700 hover:bg-pink-500 hover:text-blue-50 border-yellow-400 text-lg px-16'>
+                className='my-2 bg-white py-3 px-4 font-bold text-pink-600 border-l-4 hover:border-l-8 active:bg-pink-700 hover:bg-pink-500 hover:text-blue-50 border-yellow-400 text-lg px-16'>
                     
                     Tiket Kereta Api
                     </h1>
             </div>
             <div onClick={() => {setTikName("Pesawat")}}>
                 <h1 
-                className='my-2 bg-white py-3 px-1 font-bold text-pink-600 border-l-4 hover:border-l-8 active:bg-pink-700 hover:bg-pink-500 hover:text-blue-50 border-yellow-400 text-lg px-16'>
+                className='my-2 bg-white py-3 px-4 font-bold text-pink-600 border-l-4 hover:border-l-8 active:bg-pink-700 hover:bg-pink-500 hover:text-blue-50 border-yellow-400 text-lg px-16'>
                     
                     Tiket Pesawat
                     </h1>
