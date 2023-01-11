@@ -70,8 +70,6 @@ function DetailTicket() {
 
         </td>
         <td>
-        <button className="bg-gradient-to-r from-pink-500 to-pink-400 text-white text-xl rounded px-4 py-2 font-bold">Detail Tiket</button>
-
         </td>
       </tr>
     </tbody>
@@ -87,6 +85,20 @@ function DetailTicket() {
           <h1 className=' text-2xl'>Total Price</h1>
           <h1 className=' text-lg'>Rp 200.000 * 2 (Adult) * 1 (Child)</h1>
           <h1 className=' text-2xl font-bold text-pink-400'> Rp. 500.000</h1>
+          {/* The button to open modal */}
+<label htmlFor="my-modal" className="bg-gradient-to-r m-3 btn from-pink-500 to-pink-400 text-white text-xl rounded px-4 py-2 font-bold">Detail</label>
+
+{/* Put this part before </body> tag */}
+<input type="checkbox" id="my-modal" className="modal-toggle" />
+<div className="modal bg-gray-50/[.6]">
+  <div className="modal-box  bg-gray-100">
+    <h3 className="font-bold text-lg">Congratulations random Internet user!</h3>
+    <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
+    <div className="modal-action">
+      <label htmlFor="my-modal" className="btn">Yay!</label>
+    </div>
+  </div>
+</div>
 
 
 

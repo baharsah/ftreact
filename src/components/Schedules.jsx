@@ -18,14 +18,15 @@ var handleLoading = () => { setTimeout(() =>{} , 9000 ); changeIsLoading(false);
 
 {/* Put this part before </body> tag */}
 <input type="checkbox" id="my-modal" className="modal-toggle" />
-<div className="modal ">
+<div className="modal hover:bg-pink-100/[.6]">
   <div className="modal-box bg-pink-500 box-shadow-lg hover:bg-pink-600">
     {isLoading && <FaSpinner className="animate-spin text-white h-1/4 w-1/4 m-auto" /> }
     {  !isLoading && <><h3 className="font-bold text-lg text-white">Congratulations random Internet user!</h3>
     <p className="py-4 text-white">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-    <div className="modal-action">
+   </>}
+   <div className="modal-action">
       <label htmlFor="my-modal" className="btn">Yay!</label>
-    </div></>}
+    </div>
   </div>
 </div>
   <table className="table w-full">
