@@ -20,11 +20,24 @@ function Navbar() {
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
-        <li>
+        {/* <li>
                     <button className=" font-semibold text-pink-600/100 border-4 border-pink-500/100 text-xl rounded px-3 py-1">Daftar</button>
           </li>
           <li>
                     <button className="bg-gradient-to-r from-pink-500 to-pink-400 text-white text-xl rounded px-4 py-2">Login</button>
+          </li> */}
+          <div className="dropdown dropdown-end z-[500]">
+  <label tabIndex={0} className="rounded rounded-1 bg-gradient-to-r from-pink-500 to-pink-400 text-white text-xl px-4 py-2">Profile</label>
+  <ul tabIndex={0} className=" my-2 bg-gray-100 dropdown-content menu p-2 shadow rounded-box w-52">
+    <li><a>Item 1</a></li>
+    <li><a>Item 2</a></li>
+    <li><a>Item 2</a></li>
+  </ul>
+</div>
+          <li>
+
+
+
           </li>
 
         </ul>

@@ -15,9 +15,8 @@ function StaticCard() {
                <p className='text-normal text-4xl text-white'>you wanna to go home? Check our services!</p>
             </div>
             
-            <div className='w-1/4 h-1/4 py-5 rounded relative'>
-                <img  className='rounded-lg absolute border-8' src={Img1}></img>
-            <img  className='rounded-lg absolute -translate-y-5 translate-x-5 border-8' src={Img1}></img>
+            <div className='w-1/4 h-1/4 py-5 rounded'>
+                <img   className=' rounded-lg border-8' src={Img1}></img>
 
             </div>
 

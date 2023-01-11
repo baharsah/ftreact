@@ -18,7 +18,8 @@ function DetailTicket() {
       <ol className="border-l border-l-4 border-pink-400">
   <li>
     <div className="flex flex-start items-center pt-3">
-      <div className="border-pink-600 border border-3 bg-white w-4 h-4 rounded-full -ml-2 mr-3"></div>
+      <div className="animate-ping border-pink-600 border border-3 bg-white w-4 h-4 rounded-full -ml-2 mr-3"></div>
+      <div className="border-pink-600 border border-3 bg-white w-4 h-4 rounded-full -ml-7 mr-3"></div>
       <p className="text-gray-500 text-sm">12 Febuari 2022 12:00</p>
     </div>
     <div className="mt-0.5 ml-4 mb-6">
@@ -28,7 +29,8 @@ function DetailTicket() {
   </li>
   <li>
     <div className="flex flex-start items-center pt-3">
-      <div className="bg-pink-600 border border-3 bg-white w-4 h-4 rounded-full -ml-2 mr-3"></div>
+      <div className="bg-pink-600 border border-3 bg-white w-4 h-4 rounded-full animate-ping -ml-2 mr-3"></div>
+      <div className="bg-pink-600 border border-3 bg-white w-4 h-4 rounded-full -ml-7 mr-3"></div>
       <p className="text-gray-500 text-sm">13 Febuari 2022 16:00</p>
     </div>
     <div className="mt-0.5 ml-4 mb-6">
