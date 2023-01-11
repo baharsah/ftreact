@@ -6,7 +6,7 @@ function DetailTicket() {
     <>
     <h1 className='m-4 text-center font-bold text-xl'>Tiket Saya</h1>
     <div className='flex max-md:flex-col'>
-    <div className="m-16 border rounded rounded-8 border-8">
+    <div className="m-16 border rounded rounded-8 border-4">
     <img  src={VT} width={"20%"} height={"20%"}/>
     <div className="flex m-8 justify-evenly max-md:flex-col flex-wrap w-full">
       <div className='px-16'>
@@ -15,7 +15,7 @@ function DetailTicket() {
         <p className="text-yellow-600 bg-yellow-200 p-2 text-center rounded-8 m-2">Pending</p>
       </div>
       <div>
-      <ol className="border-l border-l-4 border-pink-400">
+      <ol className="border-l border-l-2 border-pink-400">
   <li>
     <div className="flex flex-start items-center pt-3">
       <div className="animate-ping border-pink-600 border border-3 bg-white w-4 h-4 rounded-full -ml-2 mr-3"></div>
@@ -98,7 +98,7 @@ function DetailTicket() {
     <label htmlFor="my-modal" className="btn border-0 bg-gray-300 btn-sm btn-circle absolute right-2 top-2">✕</label>
 
 
-    <div className="m-16 bg-white border rounded rounded-8 border-8">
+    <div className="m-16 bg-white border rounded rounded-8 border-4">
     <img  src={VT} width={"20%"} height={"20%"}/>
     <div className="flex m-8 justify-evenly max-md:flex-col flex-wrap w-full">
       <div className='px-16'>
@@ -107,7 +107,7 @@ function DetailTicket() {
         {/* <p className="text-yellow-600 bg-yellow-200 p-2 text-center rounded-8 m-2">Pending</p> */}
       </div>
       <div>
-      <ol className="border-l border-l-4 border-pink-400">
+      <ol className="border-l border-l-2 border-pink-400">
   <li>
     <div className="flex flex-start items-center pt-3">
       <div className="animate-ping border-pink-600 border border-3 bg-white w-4 h-4 rounded-full -ml-2 mr-3"></div>
