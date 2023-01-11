@@ -5,10 +5,10 @@ function DetailTicket() {
   return (
     <>
     <h1 className='m-4 text-center font-bold text-xl'>Tiket Saya</h1>
-    <div className='flex'>
+    <div className='flex max-md:flex-col'>
     <div className="m-16 border rounded rounded-8 border-8">
     <img  src={VT} width={"20%"} height={"20%"}/>
-    <div className="flex m-8 justify-evenly flex-wrap w-full">
+    <div className="flex m-8 justify-evenly max-md:flex-col flex-wrap w-full">
       <div className='px-16'>
         <h1 className='font-bold text-2xl'>Argo Wilis</h1>
         <p>Eksekutif</p>
@@ -57,7 +57,6 @@ function DetailTicket() {
         <th>No Telepon</th>
         <th>Email</th>
         <th></th>
-        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -68,7 +67,6 @@ function DetailTicket() {
         <td>Blue</td>
         <td>Blue</td>
         <td>
-        <button className="bg-gradient-to-r from-pink-500 to-pink-400 text-white text-xl rounded px-4 py-2 font-bold">Pay Now</button>
 
         </td>
         <td>
@@ -89,10 +87,12 @@ function DetailTicket() {
           <h1 className=' text-2xl font-bold text-pink-400'> Rp. 500.000</h1>
           {/* The button to open modal */}
 <label htmlFor="my-modal" className="bg-gradient-to-r m-3 btn from-pink-500 to-pink-400 text-white text-xl rounded px-4 py-2 font-bold">Detail</label>
+<button className="bg-gradient-to-r from-pink-500 to-pink-400 text-white text-xl rounded px-4 py-2 font-bold">Pay Now</button>
+
 
 {/* Put this part before </body> tag */}
 <input type="checkbox" id="my-modal" className="modal-toggle" />
-<div className="modal bg-gray-50/[.6]">
+<div className="modal modal-bottom bg-gray-50/[.6]">
   <div className="modal-box  bg-gray-100">
     <h3 className="font-bold text-lg">Congratulations random Internet user!</h3>
     <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
