@@ -162,11 +162,12 @@ function Navbar() {
           </li></>}
           {(state.isLogin)&& <><div className="dropdown dropdown-end z-[500]">
             {/* TODO: Profile */}
-  <label tabIndex={0} className="rounded rounded-1 bg-gradient-to-r from-pink-500 to-pink-400 text-white text-xl px-4 py-2">Profile</label>
+  <label tabIndex={0} className="rounded rounded-1 bg-gradient-to-r from-pink-500 to-pink-400 text-white text-xl px-4 py-2">User Navigation</label>
   <ul tabIndex={0} className=" my-2 bg-gray-100 dropdown-content menu p-2 shadow rounded-box w-52">
-    <li><a>Item 1</a></li>
-    <li><a>Item 2</a></li>
-    <li><a>Item 2</a></li>
+   {(!state.user.isAdmin) && <><li className='hover:bg-gray-400'><a>Tiket Saya</a></li>
+    <li className='hover:bg-gray-400'><a>Payment</a></li> </>}
+    {(state.user.isAdmin) && <li className='hover:bg-gray-400'><a>Tambah Tiket</a></li>}
+    <li className='hover:bg-gray-400'><a>Logout</a></li>
   </ul>
 </div></> }
           <li>
