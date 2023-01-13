@@ -167,7 +167,10 @@ function Navbar() {
    {(!state.user.isAdmin) && <><li className='hover:bg-gray-400'><a>Tiket Saya</a></li>
     <li className='hover:bg-gray-400'><a>Payment</a></li> </>}
     {(state.user.isAdmin) && <li className='hover:bg-gray-400'><a>Tambah Tiket</a></li>}
-    <li className='hover:bg-gray-400'><a>Logout</a></li>
+    <li                 onClick={() => {
+                    dispatch({
+                        type : "LOGOUT"
+                    }) } } className='hover:bg-gray-400'><a>Logout</a></li>
   </ul>
 </div></> }
           <li>
